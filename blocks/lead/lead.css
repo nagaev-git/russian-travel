@@ -1,0 +1,9 @@
+.lead {
+    max-width: 984px;
+    width: calc(100% - 296px);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
