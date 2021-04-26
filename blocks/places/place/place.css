@@ -5,14 +5,12 @@
     grid-template-areas: 
     "title website"
     "image paragraph_first"
-    "image paragraph_second"
-    ;
+    "image paragraph_second";
 }
 
 .place:last-child {
     grid-template-areas: 
     "title website"
     "image paragraph_second"
-    "image ."
-    ;
+    "image .";
 }
