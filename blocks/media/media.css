@@ -160,10 +160,10 @@
     .footer__links {
         flex-direction: column;
     }
-    .footer__link_padding {
+    .footer__links_padding-bottom {
         padding-bottom: 32px;
     }
-    .footer__link_padding:last-child {
+    .footer__links_padding-bottom:last-child {
         padding-bottom: 0;
     }
     .footer__link {
