@@ -1,0 +1,8 @@
+@media screen and (max-width: 690px) {
+    .footer__links_padding-bottom {
+        padding-bottom: 32px;
+    }
+    .footer__links_padding-bottom:last-child {
+        padding-bottom: 0;
+    }
+}

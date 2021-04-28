@@ -3,3 +3,24 @@
     margin: 0 auto;
     padding-left: 11.5%;
 }
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        padding-left: 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        max-width: 720px;
+        margin: 0 auto;
+        padding-left: 0;
+        width: calc(100% - 48px);
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .intro {
+        width: calc(100% - 32px);
+        }
+}

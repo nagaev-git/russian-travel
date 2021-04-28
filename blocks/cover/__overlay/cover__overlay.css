@@ -28,3 +28,27 @@
 .cover__overlay:hover::before {
     opacity: .8;
 }
+
+@media screen and (max-width: 1024px) {
+    .cover__overlay {
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__overlay {
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .cover__overlay {
+        min-height: 360px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover__overlay {
+        min-height: 200px;
+    }
+}

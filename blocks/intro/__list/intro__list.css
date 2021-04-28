@@ -8,3 +8,9 @@
     line-height: 1.5;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 690px) {
+    .intro__list {
+        padding: 34px 0 0;
+    }
+}
