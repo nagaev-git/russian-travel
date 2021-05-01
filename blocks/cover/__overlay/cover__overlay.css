@@ -10,6 +10,9 @@
     z-index: 0;
     text-decoration: none;
     overflow: hidden;
+    background-repeat: round;
+    background-size: 100%;
+    background-image: url(../../../images/cover/cover-trains.jpg);
 }
 
 .cover__overlay::before {
@@ -19,7 +22,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,1);
+    background-color: #2A2C2F;;
     opacity: .3;
     z-index: -1;
     transition: opacity 200ms ease-in-out;

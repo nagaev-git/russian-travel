@@ -4,15 +4,11 @@
     padding-bottom: 80px;
     grid-template-areas: 
     "title website"
-    "image paragraph_first"
-    "image paragraph_second";
+    "image text";
 }
 
 .place:last-child {
-    grid-template-areas: 
-    "title website"
-    "image paragraph_second"
-    "image .";
+    padding-bottom: 92px;
 }
 
 @media screen and (max-width: 768px) {
@@ -32,15 +28,9 @@
         "title"
         "website"
         "image"
-        "paragraph_first"
-        "paragraph_second";
+        "text";
     }
     .place:last-child {
         padding-bottom: 66px;
-        grid-template-areas: 
-        "title"
-        "website"
-        "image"
-        "paragraph_second";
     }
 }

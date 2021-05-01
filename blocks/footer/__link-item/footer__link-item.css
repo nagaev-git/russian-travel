@@ -1,8 +1,8 @@
 @media screen and (max-width: 690px) {
-    .footer__links_padding-bottom {
+    .footer__link-item {
         padding-bottom: 32px;
     }
-    .footer__links_padding-bottom:last-child {
+    .footer__link-item:last-child {
         padding-bottom: 0;
     }
 }
