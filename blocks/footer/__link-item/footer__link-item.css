@@ -1,3 +1,11 @@
+.footer__link-item {
+    padding-right: 18px;
+}
+
+.footer__link-item:last-child {
+    padding-right: 0;
+}
+
 @media screen and (max-width: 690px) {
     .footer__link-item {
         padding-bottom: 32px;
